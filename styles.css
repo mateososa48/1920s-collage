@@ -401,15 +401,6 @@ main {
   color: rgba(31, 26, 21, 0.48);
 }
 
-.story__subtitle {
-  margin-bottom: 0.6rem;
-  font-size: 0.86rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--accent-deep);
-}
-
 .story h2 {
   margin: 0;
   font-size: clamp(2.8rem, 4.9vw, 4.1rem);
