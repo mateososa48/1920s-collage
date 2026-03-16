@@ -94,6 +94,28 @@ figure {
   text-align: center;
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: min(68vw, 46rem);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(195, 160, 109, 0.22) 0%,
+    rgba(163, 106, 68, 0.12) 34%,
+    rgba(163, 106, 68, 0.05) 56%,
+    rgba(245, 241, 234, 0) 74%
+  );
+  filter: blur(10px);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: -1;
+}
+
 .hero__eyebrow,
 .sources__eyebrow {
   margin-bottom: 1.15rem;
@@ -461,6 +483,11 @@ main {
 
   .hero h1 {
     font-size: clamp(3.8rem, 19vw, 5.8rem);
+  }
+
+  .hero::before {
+    width: min(88vw, 34rem);
+    top: 44%;
   }
 
   .story,
