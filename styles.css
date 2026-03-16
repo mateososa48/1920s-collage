@@ -145,14 +145,6 @@ figure {
   color: var(--muted);
 }
 
-.hero__details {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: clamp(2rem, 4vw, 3rem);
-}
-
-.hero__detail,
 .story__tag {
   display: inline-flex;
   align-items: center;
@@ -164,13 +156,6 @@ figure {
   background: rgba(248, 244, 238, 0.88);
   box-shadow: 0 12px 30px rgba(48, 34, 20, 0.06);
   backdrop-filter: blur(10px);
-}
-
-.hero__detail {
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(31, 26, 21, 0.7);
 }
 
 .hero__ornament {
@@ -563,10 +548,6 @@ main {
 @media (max-width: 620px) {
   .page {
     width: min(94vw, 34rem);
-  }
-
-  .hero__details {
-    gap: 0.65rem;
   }
 
   .story__frame--split {
