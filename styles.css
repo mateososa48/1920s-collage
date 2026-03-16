@@ -163,6 +163,15 @@ figure {
   color: var(--accent-deep);
 }
 
+.hero__byline {
+  margin-top: 0.95rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(31, 26, 21, 0.58);
+}
+
 .hero__intro {
   max-width: 48rem;
   margin: 0 auto;
