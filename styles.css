@@ -97,21 +97,22 @@ figure {
 .hero::before {
   content: "";
   position: absolute;
-  top: 48%;
+  top: 46%;
   left: 50%;
-  width: min(68vw, 46rem);
+  width: min(76vw, 54rem);
   aspect-ratio: 1;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(195, 160, 109, 0.22) 0%,
-    rgba(163, 106, 68, 0.12) 34%,
-    rgba(163, 106, 68, 0.05) 56%,
-    rgba(245, 241, 234, 0) 74%
+    rgba(210, 176, 126, 0.42) 0%,
+    rgba(195, 160, 109, 0.28) 22%,
+    rgba(163, 106, 68, 0.18) 46%,
+    rgba(163, 106, 68, 0.08) 62%,
+    rgba(245, 241, 234, 0) 80%
   );
-  filter: blur(10px);
-  opacity: 0.8;
+  filter: blur(14px);
+  opacity: 1;
   pointer-events: none;
   z-index: -1;
 }
@@ -495,8 +496,8 @@ main {
   }
 
   .hero::before {
-    width: min(88vw, 34rem);
-    top: 44%;
+    width: min(94vw, 38rem);
+    top: 42%;
   }
 
   .story,
