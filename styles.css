@@ -91,6 +91,7 @@ figure {
   isolation: isolate;
   padding: clamp(4.5rem, 10vw, 8.5rem) 0 clamp(3rem, 6vw, 5rem);
   border-bottom: 1px solid var(--line);
+  text-align: center;
 }
 
 .hero__eyebrow,
@@ -105,14 +106,15 @@ figure {
 
 .hero__grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.85fr);
-  gap: clamp(2rem, 6vw, 5rem);
-  align-items: end;
+  justify-items: center;
+  gap: clamp(1.2rem, 3vw, 2rem);
 }
 
 .hero__headline {
   position: relative;
   z-index: 1;
+  display: grid;
+  justify-items: center;
 }
 
 .hero h1,
@@ -125,8 +127,8 @@ figure {
 }
 
 .hero h1 {
-  max-width: 8ch;
-  margin: 0;
+  max-width: none;
+  margin: 0 auto;
   font-size: clamp(4.8rem, 12vw, 9rem);
   line-height: 0.88;
 }
@@ -140,9 +142,11 @@ figure {
 }
 
 .hero__intro {
-  max-width: 35rem;
+  max-width: 48rem;
+  margin: 0 auto;
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   color: var(--muted);
+  text-align: center;
 }
 
 .story__tag {
@@ -156,43 +160,6 @@ figure {
   background: rgba(248, 244, 238, 0.88);
   box-shadow: 0 12px 30px rgba(48, 34, 20, 0.06);
   backdrop-filter: blur(10px);
-}
-
-.hero__ornament {
-  position: absolute;
-  pointer-events: none;
-  z-index: -1;
-  will-change: transform;
-}
-
-.hero__ornament--one {
-  top: 2rem;
-  right: 8%;
-  width: clamp(10rem, 18vw, 15rem);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: radial-gradient(
-    circle at 30% 30%,
-    rgba(195, 160, 109, 0.38),
-    rgba(163, 106, 68, 0.14) 62%,
-    transparent 72%
-  );
-  transform: translate3d(0, calc(0px + var(--parallax-offset, 0px)), 0);
-}
-
-.hero__ornament--two {
-  left: -1rem;
-  bottom: 0.8rem;
-  width: clamp(13rem, 26vw, 22rem);
-  height: clamp(4rem, 10vw, 8rem);
-  border-radius: 2.5rem;
-  background: linear-gradient(
-    120deg,
-    rgba(31, 26, 21, 0.08),
-    rgba(31, 26, 21, 0.02)
-  );
-  transform: translate3d(0, calc(-4px + var(--parallax-offset, 0px)), 0)
-    rotate(-6deg);
 }
 
 main {
@@ -398,13 +365,6 @@ main {
   color: var(--muted);
 }
 
-.story__source {
-  margin-top: 1.35rem;
-  font-size: 0.84rem;
-  letter-spacing: 0.03em;
-  color: rgba(31, 26, 21, 0.56);
-}
-
 .sources {
   position: relative;
   padding-top: clamp(4.5rem, 8vw, 7rem);
@@ -427,9 +387,10 @@ main {
 
 .sources__grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: clamp(2rem, 5vw, 4rem);
   margin-top: 2.4rem;
+  max-width: 68rem;
 }
 
 .sources h3 {
@@ -484,11 +445,6 @@ main {
 }
 
 @media (max-width: 1080px) {
-  .hero__grid,
-  .sources__grid {
-    grid-template-columns: 1fr;
-  }
-
   .hero__intro {
     max-width: 38rem;
   }
@@ -576,7 +532,4 @@ main {
     transition: none;
   }
 
-  .hero__ornament {
-    transform: none;
-  }
 }
