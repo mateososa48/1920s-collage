@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="1920s Collage is a modern scrolling editorial project exploring ten defining images and themes from the Roaring Twenties."
+    />
+    <title>1920s Collage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.classList.add("has-motion");
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div
+          class="hero__ornament hero__ornament--one"
+          data-parallax="0.08"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero__ornament hero__ornament--two"
+          data-parallax="-0.05"
+          aria-hidden="true"
+        ></div>
+
+        <p class="hero__eyebrow">Editorial History Project</p>
+
+        <div class="hero__grid">
+          <div class="hero__headline">
+            <h1>1920s Collage</h1>
+            <p class="hero__subtitle">The Roaring Twenties</p>
+          </div>
+
+          <div class="hero__intro">
+            <p>
+              A decade of jazz, speed, celebrity, contradiction, and social
+              conflict. This scrolling collage brings together ten images that
+              show how the 1920s felt both exhilarating and deeply unsettled at
+              the same time.
+            </p>
+          </div>
+        </div>
+
+        <div class="hero__details" aria-label="Project overview">
+          <span class="hero__detail">10 visible sections</span>
+          <span class="hero__detail">Culture, conflict, and change</span>
+          <span class="hero__detail">A modern scrolling collage</span>
+        </div>
+      </header>
+
+      <main>
+        <section
+          id="jazz-age-musicians"
+          class="story story--wide reveal reveal--left"
+          style="
+            --media-ratio: 5 / 4;
+            --media-shift: -1.5rem;
+            --copy-lift: 1.2rem;
+            --copy-width: 33rem;
+            --accent-wash: rgba(163, 106, 68, 0.18);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1920s / Music</span>
+              <div class="story__frame">
+                <img
+                  class="story__image"
+                  src="https://i.ebayimg.com/images/g/jjgAAOSwEelgKSsS/s-l1200.jpg"
+                  alt="Louis Armstrong and Duke Ellington smiling together with a trumpet."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">01</p>
+              <p class="story__subtitle">Sound of a changing decade</p>
+              <h2>Jazz Age Musicians</h2>
+              <p class="story__body">
+                These musicians represent how important jazz became in the
+                1920s. Jazz was one of the clearest symbols of the decade
+                because it felt new, energetic, and different from older styles
+                of music. Artists like Louis Armstrong and Duke Ellington
+                helped make jazz popular across the country, not just in Black
+                communities where it had started and grown. Their music shaped
+                the mood of the Roaring Twenties and made the era feel exciting
+                and modern.
+              </p>
+              <p class="story__source">
+                Jazz Age Musicians — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="cotton-club"
+          class="story story--reverse story--wide reveal reveal--right"
+          style="
+            --media-ratio: 6 / 5;
+            --media-lift: 0.8rem;
+            --copy-shift: -1rem;
+            --copy-width: 31rem;
+            --accent-wash: rgba(123, 90, 58, 0.15);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">Harlem / Nightlife</span>
+              <div class="story__frame">
+                <img
+                  class="story__image"
+                  src="https://cdn.britannica.com/27/123927-050-149654E5/Cotton-Club-Harlem-New-York-City-1930.jpg"
+                  alt="The exterior of the Cotton Club lit up at night in Harlem."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">02</p>
+              <p class="story__subtitle">Harlem after dark</p>
+              <h2>The Cotton Club</h2>
+              <p class="story__body">
+                The Cotton Club was one of the most famous nightclubs of the
+                1920s. It was located in Harlem and became known for jazz
+                music, big performances, and a flashy nightlife atmosphere. A
+                lot of major Black performers played there, which helped spread
+                jazz to a larger audience. At the same time, it also showed the
+                racism of the period, because Black entertainers performed for
+                mostly white crowds. That makes it important not just as a music
+                venue, but as a symbol of the contradictions of the decade.
+              </p>
+              <p class="story__source">
+                The Cotton Club — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="flapper"
+          class="story story--portrait reveal reveal--left"
+          style="
+            --media-ratio: 4 / 5;
+            --section-gap: clamp(2rem, 6vw, 6rem);
+            --copy-shift: 1.8rem;
+            --copy-lift: 1.6rem;
+            --copy-width: 30rem;
+            --accent-wash: rgba(194, 157, 107, 0.18);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1920s / Style</span>
+              <div class="story__frame">
+                <img
+                  class="story__image"
+                  src="https://image.glamourdaze.com/2019/03/Flapper-H-Armstrong-Roberts-collection.jpg"
+                  alt="A flapper posing in a pleated dress and heels."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">03</p>
+              <p class="story__subtitle">Style and independence</p>
+              <h2>A Flapper</h2>
+              <p class="story__body">
+                The flapper became one of the most recognizable images of the
+                1920s. Flappers were young women who pushed back against older
+                expectations by wearing shorter dresses, cutting their hair
+                short, and acting more openly and independently in public. They
+                represented a big cultural shift, especially after women gained
+                the right to vote in 1920. This image matters because it shows
+                how the decade was not just about money and parties, but also
+                about changing gender roles and new ideas about freedom.
+              </p>
+              <p class="story__source">
+                A Flapper — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="scopes-trial"
+          class="story story--reverse story--illustration reveal reveal--right"
+          style="
+            --media-ratio: 1 / 1;
+            --copy-shift: -1.3rem;
+            --copy-width: 31rem;
+            --accent-wash: rgba(194, 157, 107, 0.22);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1925 / Science &amp; Faith</span>
+              <div class="story__frame story__frame--paper">
+                <img
+                  class="story__image story__image--contain"
+                  src="https://m.media-amazon.com/images/I/71BHoWg+fqL._AC_UF894,1000_QL80_.jpg"
+                  alt="A political cartoon connected to the Scopes Trial."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">04</p>
+              <p class="story__subtitle">Modernity on trial</p>
+              <h2>Scopes Trial Political Cartoon</h2>
+              <p class="story__body">
+                This political cartoon connects to the Scopes Trial, which
+                became one of the most famous court cases of the 1920s. The
+                case started when John Scopes was accused of teaching evolution
+                in a Tennessee public school, which went against state law. What
+                made the trial so important was that it turned into a national
+                argument over science, religion, and education. This cartoon
+                shows how people saw the trial as part of a much bigger fight
+                between modern thinking and traditional beliefs.
+              </p>
+              <p class="story__source">
+                Scopes Trial — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="ku-klux-klan"
+          class="story reveal reveal--left"
+          style="
+            --media-ratio: 1 / 1;
+            --media-shift: -1.6rem;
+            --copy-width: 33rem;
+            --accent-wash: rgba(94, 74, 52, 0.14);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1920s / Backlash</span>
+              <div class="story__frame">
+                <img
+                  class="story__image"
+                  src="https://i.guim.co.uk/img/media/1777a2e202142dbd25745719ad1229afce133fb2/0_395_3330_1997/master/3330.jpg?width=1200&amp;height=1200&amp;quality=85&amp;auto=format&amp;fit=crop&amp;s=76d071af00d8b8b757b27e183319dd56"
+                  alt="Members of the Ku Klux Klan standing together in robes and hoods."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">05</p>
+              <p class="story__subtitle">Backlash and terror</p>
+              <h2>Ku Klux Klan in the 1920s</h2>
+              <p class="story__body">
+                This image shows the Ku Klux Klan during its major comeback in
+                the 1920s. A lot of people think of the KKK mainly in the
+                Reconstruction era, but it actually became powerful again in
+                this decade. The group grew because of racism, fear of
+                immigrants, anti-Catholic prejudice, and the belief that
+                America was changing too fast. Its resurgence shows that the
+                1920s were not only a time of growth and entertainment, but
+                also a time of hate, exclusion, and backlash against social
+                change.
+              </p>
+              <p class="story__source">
+                Ku Klux Klan in the 1920s — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="teapot-dome"
+          class="story story--reverse story--illustration reveal reveal--right"
+          style="
+            --media-ratio: 1 / 1;
+            --media-lift: -0.4rem;
+            --copy-shift: -1rem;
+            --copy-width: 31rem;
+            --accent-wash: rgba(170, 128, 86, 0.18);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1923-24 / Politics</span>
+              <div class="story__frame story__frame--paper">
+                <img
+                  class="story__image story__image--contain"
+                  src="https://cdn.thecollector.com/wp-content/uploads/2024/11/teapot-dome-cartoon-juggernaut.jpg?width=1200&amp;quality=100&amp;dpr=2"
+                  alt="A political cartoon about the Teapot Dome scandal."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">06</p>
+              <p class="story__subtitle">Corruption in view</p>
+              <h2>Teapot Dome Scandal Political Cartoon</h2>
+              <p class="story__body">
+                This cartoon represents the Teapot Dome Scandal, one of the
+                biggest political scandals of the 1920s. The scandal happened
+                when government oil reserves were secretly leased to private
+                companies in exchange for bribes. It became a major example of
+                corruption in President Harding's administration. What makes
+                this image important is that it shows how political cartoons
+                were used to criticize dishonesty in government and how the
+                public was losing trust in national leaders.
+              </p>
+              <p class="story__source">
+                Teapot Dome Scandal — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="writers-and-poets"
+          class="story reveal reveal--left"
+          style="
+            --media-ratio: 6 / 5;
+            --media-shift: -1rem;
+            --copy-lift: 1rem;
+            --copy-width: 31rem;
+            --accent-wash: rgba(163, 106, 68, 0.15);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1920s / Literature</span>
+              <div class="story__frame story__frame--split">
+                <img
+                  class="story__image"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/dc/F._Scott_Fitzgerald_%281921_portrait_-_crop%29_Retouched.jpg"
+                  alt="Portrait of F. Scott Fitzgerald."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+                <img
+                  class="story__image"
+                  src="https://ncte.org/wp-content/uploads/2021/01/langstonhughes.jpg"
+                  alt="Portrait of Langston Hughes smiling beside a chair."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+              <figcaption class="story__caption">
+                F. Scott Fitzgerald / Langston Hughes
+              </figcaption>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">07</p>
+              <p class="story__subtitle">Literature and identity</p>
+              <h2>Writers and Poets</h2>
+              <p class="story__body">
+                These writers represent another side of the 1920s: the cultural
+                and literary side. The decade was not just about jazz and
+                nightlife, but also about major changes in American writing.
+                Authors like F. Scott Fitzgerald wrote about wealth, parties,
+                and the emptiness behind the glamour, while writers like
+                Langston Hughes gave voice to Black identity and creativity
+                during the Harlem Renaissance. Together, they show that the
+                1920s were also a time of serious artistic growth and
+                reflection.
+              </p>
+              <p class="story__source">
+                Writers and Poets — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="speakeasy"
+          class="story story--reverse story--wide reveal reveal--right"
+          style="
+            --media-ratio: 5 / 4;
+            --media-lift: 1rem;
+            --copy-shift: -1.8rem;
+            --copy-width: 31rem;
+            --accent-wash: rgba(123, 90, 58, 0.14);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">Prohibition / Nightlife</span>
+              <div class="story__frame">
+                <img
+                  class="story__image"
+                  src="https://cdn.britannica.com/43/233243-050-7B88D71E/Patrons-at-speakeasy-San-Francisco-California-1931.jpg"
+                  alt="Patrons gathered around a bar in a speakeasy."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">08</p>
+              <p class="story__subtitle">Nightlife underground</p>
+              <h2>A Speakeasy</h2>
+              <p class="story__body">
+                This image shows a speakeasy, which was an illegal bar during
+                Prohibition. Even though alcohol was banned in the 1920s, many
+                people still drank, and speakeasies became a huge part of city
+                nightlife. They were often hidden and secretive, but they were
+                also social spaces where people listened to music, danced, and
+                ignored the law. This makes speakeasies important because they
+                show how Prohibition did not really stop drinking. Instead, it
+                pushed it underground and helped create a culture of illegal
+                nightlife.
+              </p>
+              <p class="story__source">
+                Speakeasy / Prohibition context — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="sports-heroes"
+          class="story reveal reveal--left"
+          style="
+            --media-ratio: 6 / 5;
+            --media-shift: -1.2rem;
+            --copy-shift: 1rem;
+            --copy-width: 31rem;
+            --accent-wash: rgba(170, 128, 86, 0.16);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1920s / Celebrity</span>
+              <div class="story__frame story__frame--split">
+                <img
+                  class="story__image"
+                  src="https://roaring20sprojectush.weebly.com/uploads/4/4/2/0/44204311/1479656_orig.jpg"
+                  alt="Babe Ruth holding baseball bats in a Yankees uniform."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+                <img
+                  class="story__image"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bill-Tilden.jpg/250px-Bill-Tilden.jpg"
+                  alt="Bill Tilden preparing to hit a tennis shot."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+              <figcaption class="story__caption">
+                Babe Ruth / Bill Tilden
+              </figcaption>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">09</p>
+              <p class="story__subtitle">Celebrity in motion</p>
+              <h2>Sports Heroes / Cultural Icons</h2>
+              <p class="story__body">
+                These athletes show how sports became a huge part of popular
+                culture in the 1920s. People followed sports more closely
+                because of newspapers, magazines, and radio, which helped turn
+                athletes into national celebrities. Figures like Babe Ruth
+                became larger-than-life symbols of success, energy, and
+                entertainment. This matters because it shows how mass media was
+                changing American culture by making famous people more visible
+                and more influential than ever before.
+              </p>
+              <p class="story__source">
+                Sports Heroes / Babe Ruth — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="automobile"
+          class="story story--reverse story--wide reveal reveal--right"
+          style="
+            --media-ratio: 6 / 4.2;
+            --media-lift: 0.8rem;
+            --copy-shift: -1.2rem;
+            --copy-width: 31rem;
+            --accent-wash: rgba(163, 106, 68, 0.16);
+          "
+        >
+          <div class="story__inner">
+            <figure class="story__media">
+              <span class="story__tag">1920s / Industry</span>
+              <div class="story__frame">
+                <img
+                  class="story__image"
+                  src="https://silodrome.com/wp-content/uploads/2018/11/A-Brief-History-of-the-Model-T-Ford-20a-1600x1024.jpg"
+                  alt="A Ford Model T parked outdoors with a driver seated inside."
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </figure>
+
+            <div class="story__copy">
+              <p class="story__index">10</p>
+              <p class="story__subtitle">Industry and freedom</p>
+              <h2>1920s Automobile</h2>
+              <p class="story__body">
+                This car represents how technology and industry changed
+                everyday life in the 1920s. Cars became much more common during
+                this period, especially because companies like Ford made them
+                cheaper and easier for ordinary people to buy. As more Americans
+                got access to cars, travel became easier and people had more
+                personal freedom. The automobile became one of the strongest
+                symbols of modern life in the decade.
+              </p>
+              <p class="story__source">
+                Ford Model T / automobile context — Encyclopaedia Britannica
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="sources" class="sources reveal">
+          <div class="sources__heading">
+            <p class="sources__eyebrow">Sources</p>
+            <h2>Reference Notes</h2>
+            <p>
+              Topic context for each section comes from Encyclopaedia
+              Britannica. The image links below are the supplied archival and
+              reference images used for this page.
+            </p>
+          </div>
+
+          <div class="sources__grid">
+            <div>
+              <h3>Topic Sources</h3>
+              <ul class="sources__list">
+                <li>Jazz Age Musicians — Encyclopaedia Britannica</li>
+                <li>The Cotton Club — Encyclopaedia Britannica</li>
+                <li>A Flapper — Encyclopaedia Britannica</li>
+                <li>Scopes Trial — Encyclopaedia Britannica</li>
+                <li>Ku Klux Klan in the 1920s — Encyclopaedia Britannica</li>
+                <li>Teapot Dome Scandal — Encyclopaedia Britannica</li>
+                <li>Writers and Poets — Encyclopaedia Britannica</li>
+                <li>Speakeasy / Prohibition context — Encyclopaedia Britannica</li>
+                <li>Sports Heroes / Babe Ruth — Encyclopaedia Britannica</li>
+                <li>Ford Model T / automobile context — Encyclopaedia Britannica</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Image References</h3>
+              <ul class="sources__list">
+                <li>
+                  <a href="https://i.ebayimg.com/images/g/jjgAAOSwEelgKSsS/s-l1200.jpg"
+                    >Jazz Age Musicians image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://cdn.britannica.com/27/123927-050-149654E5/Cotton-Club-Harlem-New-York-City-1930.jpg"
+                    >The Cotton Club image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://image.glamourdaze.com/2019/03/Flapper-H-Armstrong-Roberts-collection.jpg"
+                    >A Flapper image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://m.media-amazon.com/images/I/71BHoWg+fqL._AC_UF894,1000_QL80_.jpg"
+                    >Scopes Trial cartoon image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://i.guim.co.uk/img/media/1777a2e202142dbd25745719ad1229afce133fb2/0_395_3330_1997/master/3330.jpg?width=1200&amp;height=1200&amp;quality=85&amp;auto=format&amp;fit=crop&amp;s=76d071af00d8b8b757b27e183319dd56"
+                    >Ku Klux Klan image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://cdn.thecollector.com/wp-content/uploads/2024/11/teapot-dome-cartoon-juggernaut.jpg?width=1200&amp;quality=100&amp;dpr=2"
+                    >Teapot Dome cartoon image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://upload.wikimedia.org/wikipedia/commons/d/dc/F._Scott_Fitzgerald_%281921_portrait_-_crop%29_Retouched.jpg"
+                    >F. Scott Fitzgerald image</a
+                  >
+                  /
+                  <a href="https://ncte.org/wp-content/uploads/2021/01/langstonhughes.jpg"
+                    >Langston Hughes image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://cdn.britannica.com/43/233243-050-7B88D71E/Patrons-at-speakeasy-San-Francisco-California-1931.jpg"
+                    >A Speakeasy image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://roaring20sprojectush.weebly.com/uploads/4/4/2/0/44204311/1479656_orig.jpg"
+                    >Babe Ruth image</a
+                  >
+                  /
+                  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bill-Tilden.jpg/250px-Bill-Tilden.jpg"
+                    >Bill Tilden image</a
+                  >
+                </li>
+                <li>
+                  <a href="https://silodrome.com/wp-content/uploads/2018/11/A-Brief-History-of-the-Model-T-Ford-20a-1600x1024.jpg"
+                    >1920s Automobile image</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
